@@ -28,6 +28,8 @@ html {
 body {
     background: var(--background);
     --webkit-font-font-smooth: antialiased; 
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 body, input, textarea, button {
@@ -41,4 +43,11 @@ ul{
 
 button {
     cursor: pointer;
+}
+
+.planoTrabalhoh4{
+    max-width: 250px;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 1.25rem;
 }
